@@ -1,0 +1,21 @@
+.todo-input {
+  padding: 8px 10px 8px 30px;
+  line-height: 20px;
+  border: 0;
+  background-color: #ffffff;
+  border-bottom: solid 1px #46c1a4;
+  flex-grow: 1;
+  font-family: 'Lato', sans-serif;
+}
+
+:host(:not([hidden])) {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.fa-plus {
+  position: absolute;
+  padding: 11px 10px;
+  color: #46c1a4;
+}
