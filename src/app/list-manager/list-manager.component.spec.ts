@@ -1,5 +1,4 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ListManagerComponent } from './list-manager.component';
 
 describe('ListManagerComponent', () => {
@@ -8,9 +7,8 @@ describe('ListManagerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ListManagerComponent ]
-    })
-    .compileComponents();
+      declarations: [ListManagerComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

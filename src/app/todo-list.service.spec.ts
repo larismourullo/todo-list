@@ -1,5 +1,4 @@
 import { TestBed, inject } from '@angular/core/testing';
-
 import { TodoListService } from './todo-list.service';
 
 describe('TodoListService', () => {
@@ -9,7 +8,10 @@ describe('TodoListService', () => {
     });
   });
 
-  it('should be created', inject([TodoListService], (service: TodoListService) => {
-    expect(service).toBeTruthy();
-  }));
+  it('should be created', inject(
+    [TodoListService],
+    (service: TodoListService) => {
+      expect(service).toBeTruthy();
+    }
+  ));
 });
