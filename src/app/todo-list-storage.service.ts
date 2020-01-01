@@ -3,7 +3,7 @@ const storageName = 'todo_list';
 const defaultList = [];
 
 @Injectable()
-export class TodoListStorageService {
+export class ToDoListStorageService {
   private todoList;
 
   constructor() {

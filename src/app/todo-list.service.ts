@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { TodoListStorageService } from './todo-list-storage.service';
+import { ToDoListStorageService } from './todo-list-storage.service';
 
 @Injectable()
-export class TodoListService {
-  constructor(private storage: TodoListStorageService) {}
+export class ToDoListService {
+  constructor(private storage: ToDoListStorageService) { }
 
-  getTodoList() {
+  getToDoList() {
     return this.storage.get();
   }
 

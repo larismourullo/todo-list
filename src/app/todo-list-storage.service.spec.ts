@@ -1,16 +1,16 @@
 import { TestBed, inject } from '@angular/core/testing';
-import { TodoListStorageService } from './todo-list-storage.service';
+import { ToDoListStorageService } from './todo-list-storage.service';
 
-describe('TodoListStorageService', () => {
+describe('ToDoListStorageService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [TodoListStorageService]
+      providers: [ToDoListStorageService]
     });
   });
 
   it('should be created', inject(
-    [TodoListStorageService],
-    (service: TodoListStorageService) => {
+    [ToDoListStorageService],
+    (service: ToDoListStorageService) => {
       expect(service).toBeTruthy();
     }
   ));
