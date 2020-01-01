@@ -3,10 +3,10 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'todo-item',
   template: `
-    <div class="todo-item">
-      <input class="todo-checkbox" type="checkbox" (click)="completeItem()"/>
-      <p class="todo-title" [ngClass]="{'todo-complete': isComplete}"> {{ todoItem.title }} </p>      
-      <button class="btn btn-red" (click)="removeItem()"> <i class="fas fa-trash"></i> </button>
+    <div class="item">
+      <input class="item__checkbox" type="checkbox" (click)="completeItem()"/>
+      <p class="item__title" [ngClass]="{'item__title--complete': isComplete}"> {{ todoItem.title }} </p>      
+      <button class="item__btn item__btn--red" (click)="removeItem()"> <i class="fas fa-trash"></i> </button>
     </div>
   `,
   styleUrls: ['./item.component.css']

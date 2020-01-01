@@ -1,4 +1,4 @@
-.todo-item {
+.item__item {
   padding: 10px 0;
   border-top: solid 1px #ddd;
   min-height: 30px;
@@ -8,27 +8,39 @@
   justify-content: space-between;
 }
 
-.todo-checkbox {
+.item__checkbox {
   flex-shrink: 0;
   margin: 9px auto;
 }
 
-.todo-title {
+.item__title {
   flex-grow: 1;
   word-wrap: break-word;
   padding: 0px 10px;
   max-width: 323px;
 }
 
-.btn-red {
+.item__btn--red {
   background: #fe2260;
   text-transform: uppercase;
 }
 
-.btn-red:hover {
+.item__btn--red:hover {
   background: #d81e52;
 }
 
-.todo-complete {
+.item__title--complete {
   text-decoration: line-through;
+}
+
+.item__btn {
+  color: #fff;
+  padding: 5px 15px;
+  margin: 0 0 0 3px;
+  border: none;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  vertical-align: bottom;
 }

@@ -1,4 +1,4 @@
-.todo-app {
+.list {
   width: 400px;
   position: absolute;
   top: 50%;
@@ -8,7 +8,7 @@
   left: 0;
 }
 
-.todo-app h1 {
+.list h1 {
   color: #F7B633;
   font-size: 60px;
   line-height: 52px;
@@ -17,7 +17,7 @@
   font-family: 'Sail', cursive;
 }
 
-.todo-add {
+.list__add {
   margin-bottom: 20px;
 }
 

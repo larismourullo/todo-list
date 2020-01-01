@@ -4,14 +4,9 @@ import { TodoListService } from '../todo-list.service';
 @Component({
   selector: 'todo-list-manager',
   template: `
-    <div class="todo-app">
-      <h1>
-        TodoList
-        <i class="fas fa-pencil-alt"></i>
-      </h1>
-
-      <todo-input class="todo-add" (submit)="addItem($event)"></todo-input>
-
+    <div class="list">
+      <h1>TodoList <i class="fas fa-pencil-alt"></i></h1>
+      <todo-input class="list__add" (submit)="addItem($event)"></todo-input>
       <ul>
         <li *ngFor="let item of todoList">
           <todo-item [todoItem]="item" (remove)="removeItem($event)"></todo-item>

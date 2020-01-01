@@ -1,8 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,900|Sail');
 
-html, body, div, span,
-h1, p, ul, li {
+html,
+body,
+div,
+span,
+h1,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,37 +25,32 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-textarea:focus, input:focus, select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-} 
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #b7b7b7;
-    opacity: 1; /* Firefox */
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #b7b7b7;
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b7b7b7;
+  opacity: 1;
+  /* Firefox */
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: #b7b7b7;
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b7b7b7;
 }
 
-.btn {
-  color: #fff;
-  padding: 5px 15px;
-  margin: 0 0 0 3px;
-  border: none;
-  font-size: 12px;
-  line-height: 24px;
-  cursor: pointer;
-  text-transform: uppercase;
-  vertical-align: bottom;
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b7b7b7;
 }
